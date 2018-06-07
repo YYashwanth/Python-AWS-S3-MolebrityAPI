@@ -31,3 +31,21 @@ def get_file_signature(content_type):
 	response = requests.post(url, data=data, headers=headers).json()
 	return response
 
+def find_match(uuid):
+    """
+    Once the photo has been uploaded, we call the match API with the uuid.
+    """
+    url = 'https://api.molebrity.io/match'
+    headers = {
+        'origin': 'https://molebrity.io',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+        'content-type': 'text/plain;charset=UTF-8',
+        'accept': '*/*',
+        'authority': 'api.molebrity.io'
+    }
+    data = {"uuid": uuid}
+    data = json.dumps(data)
+    response = requests.post(url, data=data, headers=headers).json()
+    return response
