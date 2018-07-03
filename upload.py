@@ -24,25 +24,7 @@ def get_file_signature(content_type):
         'accept': '*/*',
         'authority': 'api.molebrity.io'
     }
-    this is something I am trying to do for quite some time and I am trying to
-    igt he best I can and I am doing it the best I can and Iwill
-    do the best I can as  I am trying to the know nbthjsdyashmlsdnh ;
-    
-    sdhh llasdfj data jsdhyjjash 
-    jsy hihsfdhha'
-    hgaf 
-    async def yashwanth
-    yashwanthYellapragada
-    yashwanthashjs
-    yashwanth 
-hayh 
-
-sdhh uunjhjhdjfkjsdfhjjsjjjjsdhsdhjs
-hsdh 
-  
    
-    hhh yashwanthyashwanth
-    bhavya desjsara
     (parameter_list):
         pass(self, parameter_list):
         pass
